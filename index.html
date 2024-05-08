@@ -5,25 +5,29 @@
         <style>
             h1 {
              color:blue;
+             text-align: center;
+            }
+            #container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #container > div {
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
             }
         </style>
     </head>
     <body>
         <h1>Welcome to my GitHub Pages website!</h1>
-        Here are my girls
-        <ol>
-            <li>
-                Mighty<br/><img src="Mighty.jpg" alt="Mighty Picture" width="200">
-            </li>
-            <li>
-                Princess<br/><img src="PrincessBeingBeautiful.jpg" alt="Princess Picture" width="200">
-            </li>
-            <li>
-                Shorty<br/><img src="Shorty.jpg" alt="Shorty Picture" width="200">
-            </li>
-            <li>
-                Max<br/><img src="Max2.jpg" alt="Max Picture" width="200">
-            </li>
-        </ol>
+        Here are my 4 girls
+        <div id="container">
+            <div>Mighty (2011 Jan 11 - 2022 June 24)<br/><img src="Mighty.jpg" alt="Mighty Picture" width="200"></div>
+            <div>Princess (2014 Aug - 2022 Dec 18)<br/><img src="PrincessBeingBeautiful.jpg" alt="Princess Picture" width="200"></div>
+            <div>Shorty<br/><img src="Shorty.jpg" alt="Shorty Picture" width="200"></div>
+			<div>Max<br/><img src="Max2.jpg" alt="Max Picture" width="200"></div>
+        </div>
     </body>
 </html>
